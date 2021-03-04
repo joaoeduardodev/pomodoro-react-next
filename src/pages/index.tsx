@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { ChallengeBox } from '../components/ChallengeBox'
 import { CompletedChalleges } from '../components/CompletedChalleges'
 import { Countdown } from '../components/Countdown'
 import { ExperienceBar } from '../components/ExperienceBar'
@@ -12,17 +13,17 @@ export default function Home() {
       <Head>
         <title>Pomodoro - NextJs</title>
       </Head>
-    <ExperienceBar/>
-    <section>
-      <div>
-        <Profile/>
-        <CompletedChalleges/>
-        <Countdown/>
-      </div>
-      <div>
-
-      </div>
-    </section>
-  </div>
+      <ExperienceBar />
+      <section>
+        <div>
+          <Profile />
+          <CompletedChalleges />
+          <Countdown />
+        </div>
+        <div>
+          <ChallengeBox />
+        </div>
+      </section>
+    </div>
   )
 }

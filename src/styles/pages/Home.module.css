@@ -1,11 +1,13 @@
 .container{
     height: 100vh;
     max-width: 992px;
-    margin:0 auto;
+    margin:0 auto ;
     padding: 2.5rem 2rem;
 
     display: flex;
     flex-direction: column;
+    
+    margin-bottom: 6.25rem ;
 }
 
 .container section{
@@ -13,6 +15,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 6.25rem;
+    margin-top: 6.25rem ;
     /* Todp conteúdo será alinhado ao centro verticalmente*/
     align-content: center;
 }
