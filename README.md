@@ -6,3 +6,5 @@ Tecnologias utilizadas:
 <ul>TypeScript</ul>
 <ul>ReactJs</ul>
 <ul>NextJs</ul>
+<ul>Html</ul>
+<ul>CSS</ul>
